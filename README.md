@@ -22,12 +22,14 @@ api = Yay()
 
 api.Timeline()  # タイムラインの取得
 api.UserSearch(nickname='Konn', biography='hello@konn.ink')  # ユーザーの検索
-api.TagSearch(tag='YouName')  # ハッシュタグの検索
+api.GetHimaUser() #ひなユーザー取得
+api.GetGroupMember(Groupid="000000")# サークルメンバー取得
 ```
 # 支援
 [![Build](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/Konn)
 
-[PayPal](https://paypal.me/konnkoko)
+[![paypal.me/konnkoko](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/konnkoko)
+
 # 注意
 
 これは、非公式のAPIです、一切責任を負いません。 自己責任でご使用下さい。

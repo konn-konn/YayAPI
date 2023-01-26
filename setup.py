@@ -1,5 +1,5 @@
-# Author: Konn <hello@konn.ink>
-# Copyright (c) 2022 Konn
+# Author: Konn <hello@konn.dev>
+# Copyright (c) 2023 Konn
 
 from setuptools import setup
 import YayAPI
@@ -7,13 +7,14 @@ import YayAPI
 DESCRIPTION = 'Unofficial api library for yay.space'
 NAME = 'YayAPI'
 AUTHOR = 'Konn'
-AUTHOR_EMAIL = 'hello@konn.ink'
+AUTHOR_EMAIL = 'hello@konn.dev'
 URL = 'https://github.com/konn-konn/YayAPI'
 DOWNLOAD_URL = 'https://github.com/konn-konn/YayAPI'
 VERSION = YayAPI.__version__
 
 INSTALL_REQUIRES = [
-    'requests>=2.25.1'
+    'requests>=2.25.1',
+    'fake-useragent>=1.1.1'
 ]
 PACKAGES = [
     'YayAPI'
